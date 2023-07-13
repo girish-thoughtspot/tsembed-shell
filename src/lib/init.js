@@ -38,6 +38,7 @@ export function initialize() {
   })
 }
 (() => {
+  console.log(process?.env)
   const interval = setInterval(() => {
     if(window.location.pathname === '/analytics') {
       clearInterval(interval)
