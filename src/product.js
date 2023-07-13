@@ -1,4 +1,7 @@
 import React from 'react';
+import prd1 from './prd1.jpeg';
+import prd2 from './prd2.jpeg';
+import prd3 from './prd3.jpeg';
 
 const ProductGrid = () => {
   const products = [
@@ -7,21 +10,21 @@ const ProductGrid = () => {
       title: 'Product 1',
       description: 'Product 1 description',
       price: 9.99,
-      image: 'product1.jpg',
+      image: prd1,
     },
     {
       id: 2,
       title: 'Product 2',
       description: 'Product 2 description',
       price: 19.99,
-      image: 'product2.jpg',
+      image: prd2,
     },
     {
       id: 3,
       title: 'Product 3',
       description: 'Product 3 description',
       price: 29.99,
-      image: 'product3.jpg',
+      image: prd3,
     },
     // Add more products here
   ];
@@ -56,7 +59,6 @@ const styles = {
     borderRadius: '5px',
   },
   image: {
-    width: '200px',
     height: '200px',
     marginBottom: '10px',
   },
