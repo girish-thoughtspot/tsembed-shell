@@ -10,6 +10,9 @@ const Navbar = () => {
         <li style={styles.navbarItem}>
           <a href="/analytics" style={styles.navbarLink}>Analytics</a>
         </li>
+        <li style={styles.navbarItem}>
+          <a href="/analytics-liveboard" style={styles.navbarLink}>Account Stats</a>
+        </li>
       </ul>
     </nav>
   );
