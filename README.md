@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# ThoughtSpot Embed shell
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A react start kit to fast-track your development with Thoughtspot analytics using TS Embed.
+
+
+
 
 ## Available Scripts
 
